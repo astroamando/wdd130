@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@700&family=Dancing+Script&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+  :root {
+    --primary-color: #003171;
+    --secondary-color: #00A5CF;
+    --accent1-color: #009B77;
+    --accent2-color: #0087BD;
+  
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+  
+    --nav-background-color: #022f40;
+    --nav-link-color: #38aecc;
+    --nav-hover-link-color: #1c9fc7;
+    --nav-hover-background-color: #0090c1;
+  }
+    
