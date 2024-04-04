@@ -14,10 +14,31 @@ aside {
   text-align: center;
 }
 
+/* Nav Rule */
+nav {
+  margin-bottom: 20px;
+}
+
+/* Nav Anchor Rule */
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+/* Heading 1 Rule */
+h1 {
+  color: #333;
+}
+
+/* img Rule */
+img {
+  /* No changes needed */
+}
+
 /* Aside Image Rule */
 aside img {
-  width: 200px;
-  height: auto;
+  /* No changes needed */
 }
 
 /* Paragraph Rule */
