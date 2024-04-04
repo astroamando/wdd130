@@ -1,21 +1,3 @@
-body{
-    
-}
-
-/* No embedded/inline CSS */
-
-nav {
-  /* Nav Rule */
-}
-
-nav a {
-  /* Nav Anchor Rule */
-}
-
-h1 {
-  /* Heading 1 Rule */
-}
-
 main {
   max-width: 840px;
 }
@@ -28,6 +10,15 @@ aside {
   background-color: #eee;
   color: #333;
   text-align: center;
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+main img {
+  width: 150px;
+  height: auto;
 }
 
 aside img {
@@ -44,4 +35,3 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
-
