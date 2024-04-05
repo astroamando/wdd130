@@ -86,4 +86,6 @@ aside {
 /* Set <h2> elements within <aside> to absolute position */
 aside h2 {
   position: absolute;
+  top 65px;
+  left 150px;
 }
