@@ -40,7 +40,7 @@ h1 {
 
 /* img Rule */
 img {
-  /* float right*/
+  /* No changes needed */
 }
 
 /* Aside Image Rule */
@@ -71,4 +71,19 @@ footer {
   background-color: #ddd; /* Background color similar to aside rule */
   color: #000; /* Text color similar to aside rule */
   text-align: center; /* Center align text */
+}
+
+/* Float images inside <main> to the right */
+main img {
+  float: right;
+}
+
+/* Set <aside> position to relative */
+aside {
+  position: relative;
+}
+
+/* Set <h2> elements within <aside> to absolute position */
+aside h2 {
+  position: absolute;
 }
