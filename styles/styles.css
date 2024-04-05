@@ -40,7 +40,7 @@ h1 {
 
 /* img Rule */
 img {
-  /* No changes needed */
+  /* float right*/
 }
 
 /* Aside Image Rule */
@@ -59,6 +59,9 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+/* Class Selectors */
+/* You will be putting your class selector rules in this section. */
 
 /* Add the "box" class selector and style it */
 .box {
