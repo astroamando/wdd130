@@ -12,13 +12,13 @@ main {
 
 /* Aside Rule */
 aside {
-  width: 20rem;
+  width: 20em; /* Set width to 20em */
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
   background-color: #eee;
   color: #333;
-  text-align: center;
+  text-align: center; /* Center align text */
 }
 
 /* Nav Rule */
@@ -65,7 +65,7 @@ footer {
   margin: 1rem; /* Set margin to 1rem */
   border: 1px solid rgba(0, 0, 0, 0.2); /* Same border as aside rule */
   padding: 1rem; /* Set padding to 1rem */
-  background-color: #eee; /* Background color similar to aside rule */
-  color: #333; /* Text color similar to aside rule */
+  background-color: #ddd; /* Background color similar to aside rule */
+  color: #000; /* Text color similar to aside rule */
   text-align: center; /* Center align text */
 }
