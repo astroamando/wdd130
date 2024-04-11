@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="styles/quiz.css">
   <title>Quiz</title>
   <meta name="description" content="A quiz about CSS">
-  <meta name="author" content="Amando Blackburn">
+  <meta name="author" content="Your Name">
 </head>
 <body>
   <header>
@@ -15,26 +15,32 @@
   <main>
     <h1>Quiz</h1>
     <form action="#" method="post">
-      <label for="q1">What does the acronym CSS stand for?</label>
-      <input id="q1" type="text" name="q1">
+      <div class="question">
+        <label for="q1">What does the acronym CSS stand for?</label>
+        <input id="q1" type="text" name="q1">
+      </div>
 
-      <label for="q2">How are id and class attributes selected in CSS?</label>
-      <textarea name="q2" id="q2" cols="30" rows="10"></textarea>
+      <div class="question">
+        <label for="q2">How are id and class attributes selected in CSS?</label>
+        <textarea name="q2" id="q2" cols="30" rows="5"></textarea>
+      </div>
 
-      <label for="q3">Which of the following is a valid CSS comment?</label>
-      <select name="q3" id="q3">
-        <option value="javascript">/* This is a valid CSS comment */</option>
-        <option value="php">Not a valid CSS comment</option>
-        <option value="java">Also not a valid CSS comment</option>
-      </select>
+      <div class="question">
+        <label for="q3">Which of the following is a valid CSS comment?</label>
+        <select name="q3" id="q3">
+          <option value="valid">/* This is a valid CSS comment */</option>
+          <option value="invalid">Not a valid CSS comment</option>
+          <option value="also_invalid">Also not a valid CSS comment</option>
+        </select>
+      </div>
       
-      <label for="q4">What is the bottom margin given declaration?</label>
-      <img src="src/image.png" alt="">
-      <input type="number" name="q4" id="q4" value="10">
+      <div class="question">
+        <label for="q4">What is the bottom margin given declaration?</label>
+        <input type="number" name="q4" id="q4" value="10">
+      </div>
 
       <input type="submit" value="Submit">
     </form>
-
   </main>
 </body>
 </html>
