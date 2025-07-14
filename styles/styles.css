@@ -1,48 +1,90 @@
-body{
-    
+/* Reset styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* No embedded/inline CSS */
-
-nav {
-  /* Nav Rule */
-}
-
-nav a {
-  /* Nav Anchor Rule */
-}
-
-h1 {
-  /* Heading 1 Rule */
-}
-
+/* Main Rule with max-width */
 main {
   max-width: 840px;
   margin: 0 auto;
 }
 
+/* Aside Rule */
 aside {
-  width: 20rem;
+  width: 20em; /* Set width to 20em */
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
   background-color: #eee;
   color: #333;
-  text-align: center;
+  text-align: center; /* Center align text */
 }
 
+/* Nav Rule */
+nav {
+  margin-bottom: 20px;
+}
+
+/* Nav Anchor Rule */
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+/* Heading 1 Rule */
+h1 {
+  color: #333;
+}
+
+/* img Rule */
+img {
+  /* No changes needed */
+}
+
+/* Aside Image Rule */
 aside img {
-  width: 200px;
-  height: auto;
+  /* No changes needed */
 }
 
+/* Paragraph Rule */
 p {
   padding: 0;
 }
 
+/* Footer Rule */
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
 }
 
+/* Class Selectors */
+/* You will be putting your class selector rules in this section. */
+
+/* Add the "box" class selector and style it */
+.box {
+  margin: 1rem; /* Set margin to 1rem */
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Same border as aside rule */
+  padding: 1rem; /* Set padding to 1rem */
+  background-color: #ddd; /* Background color similar to aside rule */
+  color: #000; /* Text color similar to aside rule */
+  text-align: center; /* Center align text */
+}
+
+/* Float images inside <main> to the right */
+main img {
+  float: right;
+}
+
+/* Set <aside> position to relative */
+aside {
+  position: relative;
+}
+
+/* Set <h2> elements within <aside> to absolute position */
+aside h2 {
+  position: absolute;
+}
