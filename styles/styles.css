@@ -8,8 +8,7 @@
 /* Main Rule with max-width */
 main {
   max-width: 840px;
-  margin: 0 auto;
-}
+  }
 
 /* Aside Rule */
 aside {
